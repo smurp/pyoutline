@@ -31,3 +31,8 @@ The envar ``TIME_QUIETLY`` turns off lines like:
     TIMED:     20100505121116        0.04 sec \-------------------- ProductInStore.set_on_special_price_using_directive(...) ===>  None
     TIMING:    20100505121116                 /-------------------- ProductInStore.set_on_special_price_using_directive('30%')
     TIMED:     20100505121116        0.04 sec \-------------------- ProductInStore.set_on_special_price_using_directive(...) ===>  None
+
+## Uhh
+
+Why ``pyoutline``?  To give it a unique name by playing on the synonym relationship 
+with ``trace``, which is a more natural name for this kind of utility.
