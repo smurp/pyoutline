@@ -4,14 +4,14 @@ Just putting this up so I don't misplace it again!  Needs major cleanup.
 
 ## Usage
 
-Put @timed as a decorator before methods you want to time.
+Put ``@timed`` as a decorator before methods you want to time.
 Then run your code with and environment variable TIMED containing
 a regex which matches the ClassName.MethodName of the methods you
 want to show timing for.  
 
-The envar TIME_QUIETLY turns off lines like:
+The envar ``TIME_QUIETLY`` turns off lines like:
 
-    debug_tools.timed() will time: function.get_frame_in_kb
+    pyoutline.timed() will time: function.get_frame_in_kb
 
 
 ## Example
