@@ -1,6 +1,6 @@
 # pyoutline
 
-Just putting this up so I don't misplace it again!  Needs major cleanup.
+A python tracing decorator that times code and outlines nested calls showing args and results.
 
 ## Usage
 
@@ -32,7 +32,9 @@ The envar ``TIME_QUIETLY`` turns off lines like:
     TIMING:    20100505121116                 /-------------------- ProductInStore.set_on_special_price_using_directive('30%')
     TIMED:     20100505121116        0.04 sec \-------------------- ProductInStore.set_on_special_price_using_directive(...) ===>  None
 
-## Uhh
+## Notes
 
-Why ``pyoutline``?  To give it a unique name by playing on the synonym relationship 
+Why call it ``pyoutline``?  To give it a unique name by playing on the synonym relationship 
 with ``trace``, which is a more natural name for this kind of utility.
+
+Just putting this up so I don't misplace it again!  Needs major cleanup.
