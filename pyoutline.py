@@ -7,7 +7,7 @@ Usage:
   a regex which matches the ClassName.MethodName of the methods you
   want to show timing for.  
   The envar TIME_QUIETLY turns off lines like:
-    debug_tools.timed() will time: function.get_frame_in_kb
+    pyoutline.timed() will time: function.get_frame_in_kb
 
 
 For example:
@@ -48,7 +48,7 @@ def timed(meth):
         return meth
     else:
         if not os.environ.has_key('TIME_QUIETLY'):
-            print "debug_tools.timed() will time:",handle
+            print "pyoutline.timed() will time:",handle
     import time
     def wrapper(*args,**kw):
         global wrapper_depth
